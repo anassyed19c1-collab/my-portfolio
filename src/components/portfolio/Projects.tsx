@@ -43,7 +43,7 @@ export function Projects() {
               rel="noreferrer"
               className="group block py-8 sm:py-10 transition-colors hover:bg-[rgba(232,255,71,0.04)]"
             >
-              <div className="grid grid-cols-[60px_1fr_auto] sm:grid-cols-[80px_1fr_180px_auto] gap-6 items-baseline">
+              <div className="grid grid-cols-[40px_1fr_auto] sm:grid-cols-[160px_1fr_140px_40px] gap-4 sm:gap-12 items-baseline">
                 <span className="font-mono text-xs accent">[{p.n}]</span>
                 <div>
                   <h3 className="font-serif text-3xl sm:text-5xl leading-tight transition-colors group-hover:text-accent">
