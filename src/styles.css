@@ -40,29 +40,29 @@
 
 :root {
   --radius: 0.75rem;
-  /* Ultra Dark Indigo Glassmorphism */
-  --background: #050510;
-  --surface: #0d0d1f;
-  --surface-2: #12122a;
-  --foreground: #f8fafc;
-  --card: #1a1a35;
-  --card-foreground: #f8fafc;
-  --popover: #1a1a35;
-  --popover-foreground: #f8fafc;
+  /* Light Indigo Glassmorphism */
+  --background: #f8fafc;
+  --surface: #ffffff;
+  --surface-2: #f1f5f9;
+  --foreground: #0f172a;
+  --card: #ffffff;
+  --card-foreground: #0f172a;
+  --popover: #ffffff;
+  --popover-foreground: #0f172a;
   --primary: #6366f1;
   --primary-foreground: #ffffff;
   --violet: #8b5cf6;
   --cyan: #06b6d4;
-  --secondary: #1a1a35;
-  --secondary-foreground: #f8fafc;
-  --muted: #12122a;
-  --muted-foreground: #94a3b8;
+  --secondary: #f1f5f9;
+  --secondary-foreground: #0f172a;
+  --muted: #f1f5f9;
+  --muted-foreground: #475569;
   --accent: #6366f1;
   --accent-foreground: #ffffff;
   --destructive: #ef4444;
   --destructive-foreground: #ffffff;
-  --border: rgba(99, 102, 241, 0.2);
-  --input: rgba(99, 102, 241, 0.2);
+  --border: rgba(99, 102, 241, 0.18);
+  --input: rgba(99, 102, 241, 0.18);
   --ring: #6366f1;
   --success: #10b981;
 }
