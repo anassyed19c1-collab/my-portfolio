@@ -28,7 +28,7 @@ export function Navbar() {
     >
       <nav className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 h-20 flex items-center justify-between">
         <a href="#home" className="font-serif text-2xl tracking-tight">
-          Anas<span className="accent">.</span>
+          PORTFOLIO<span className="accent">.</span>
         </a>
 
         <ul className="hidden md:flex items-center gap-10">
