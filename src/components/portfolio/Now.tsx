@@ -3,7 +3,7 @@ import { Section } from "./Section";
 const items = [
   { n: "01", title: "Learning", body: "Certified Agentic AI Architect — building intelligent agents, RAG pipelines, and LLM-powered applications." },
   { n: "02", title: "Building", body: "Adding production-quality full-stack and AI projects to my portfolio — clean architecture, real impact." },
-  { n: "03", title: "Applying", body: "Actively applying for internship and junior developer roles in Karachi and remotely worldwide." },
+  { n: "03", title: "Applying", body: "Actively applying for internship and developer roles in Karachi and remotely worldwide." },
   { n: "04", title: "Growing", body: "Sharpening DSA fundamentals, JavaScript core concepts, and system-design basics every day." },
 ];
 

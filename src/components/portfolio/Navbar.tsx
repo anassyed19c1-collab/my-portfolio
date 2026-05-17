@@ -50,7 +50,7 @@ export function Navbar() {
             download
             className="hidden sm:inline-flex items-center gap-2 border border-hairline px-4 py-2 text-[11px] font-mono uppercase tracking-[0.18em] hover:bg-accent hover:text-accent-foreground hover:border-accent transition-colors"
           >
-            CV ↓
+            Download CV ↓
           </a>
           <button
             onClick={() => setOpen((v) => !v)}

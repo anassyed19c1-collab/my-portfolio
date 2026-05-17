@@ -6,7 +6,6 @@ const navLinks = [
   { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
   { label: "Certifications", href: "#certifications" },
-  { label: "Hackathon", href: "#hackathon" },
   { label: "Now", href: "#now" },
   { label: "Contact", href: "#contact" },
 ];
@@ -20,10 +19,10 @@ const services = [
 ];
 
 const socials = [
-  { Icon: Github, href: "https://github.com/alihassan", label: "GitHub" },
-  { Icon: Linkedin, href: "https://linkedin.com/in/alihassan", label: "LinkedIn" },
-  { Icon: MessageCircle, href: "https://wa.me/923000000000", label: "WhatsApp" },
-  { Icon: Mail, href: "mailto:ali.hassan@email.com", label: "Email" },
+  { Icon: Github, href: "https://github.com/anassyed19c1-collab/", label: "GitHub" },
+  { Icon: Linkedin, href: "https://www.linkedin.com/in/syed-muhammad-anas-30664539a", label: "LinkedIn" },
+  { Icon: MessageCircle, href: "https://wa.me/923308398469", label: "WhatsApp" },
+  { Icon: Mail, href: "mailto:anas.syed19c1@gmail.com", label: "Email" },
 ];
 
 export function Footer() {
@@ -48,7 +47,7 @@ export function Footer() {
                     "linear-gradient(135deg, var(--primary) 0%, #f5f5f0 100%)",
                 }}
               >
-                A.H
+                PORTFOLIO<span className="accent">.</span>
               </a>
               <p className="label-mono">
                 Full Stack Developer — Karachi, Pakistan
@@ -123,18 +122,18 @@ export function Footer() {
                   </span>
                 </div>
                 <p className="mt-2 text-xs text-foreground/70 leading-relaxed">
-                  Available for Internship & Junior Roles
+                  Available for Internship & Developer Roles
                 </p>
               </div>
 
               <ul className="space-y-3 text-sm">
-                <ContactLine Icon={Mail} href="mailto:ali.hassan@email.com" text="ali.hassan@email.com" />
+                <ContactLine Icon={Mail} href="mailto:anas.syed19c1@gmail.com" text="anas.syed19c1@gmail.com" />
                 <ContactLine Icon={MapPin} text="Karachi, Pakistan" />
-                <ContactLine Icon={Linkedin} href="https://linkedin.com/in/alihassan" text="linkedin.com/in/alihassan" />
-                <ContactLine Icon={Github} href="https://github.com/alihassan" text="github.com/alihassan" />
+                <ContactLine Icon={Linkedin} href="https://www.linkedin.com/in/syed-muhammad-anas-30664539a" text="www.linkedin.com/in/syed-muhammad-anas-30664539a" />
+                <ContactLine Icon={Github} href="https://github.com/anassyed19c1-collab" text="github.com/anassyed19c1-collab" />
               </ul>
 
-              <a
+              {/* <a
                 href="#"
                 className="group flex w-full items-center justify-center gap-2 px-5 py-3 text-xs font-mono uppercase tracking-[0.18em] text-[var(--primary-foreground)] transition-all hover:shadow-[0_0_30px_var(--primary)]"
                 style={{
@@ -144,6 +143,19 @@ export function Footer() {
               >
                 <Download size={14} />
                 Download CV
+              </a> */}
+              <a
+                href="/Anas_CV.pdf"
+                download
+                className="inline-flex items-center gap-3 border border-hairline px-6 py-4 text-xs font-mono uppercase tracking-[0.18em] hover:border-accent hover:text-accent transition-colors"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(135deg, var(--primary) 0%, #c7e23a 100%) text-[var(--primary-foreground)]",
+                }}
+              >
+
+
+                <Download size={14} /> Download CV
               </a>
             </div>
           </div>
@@ -151,9 +163,8 @@ export function Footer() {
           <div className="mt-16 border-t border-hairline" />
 
           <div className="pt-6 flex flex-col md:flex-row items-center justify-between gap-3 text-[11px] font-mono uppercase tracking-[0.18em] text-foreground/60">
-            <span>© 2025 Ali Hassan. All rights reserved.</span>
-            <span>Built with Next.js & Tailwind CSS</span>
-            <span>Designed & Developed by Ali Hassan</span>
+            <span>© 2025 Anas - Portfolio. All rights reserved.</span>
+            <span>Designed & Developed by Syed Muhammad Anas</span>
           </div>
         </div>
       </footer>
@@ -162,7 +173,7 @@ export function Footer() {
         <div className="max-w-7xl mx-auto px-6 sm:px-10 py-3 flex items-center justify-center gap-3 text-[11px] sm:text-xs font-mono uppercase tracking-[0.2em]">
           <span className="h-2 w-2 rounded-full bg-accent pulse-dot" />
           <span className="accent">Open to Work</span>
-          <span className="text-foreground/80">— Available for Internship & Junior Roles</span>
+          <span className="text-foreground/80">— Available for Internship & Developer Roles</span>
         </div>
       </div>
     </>

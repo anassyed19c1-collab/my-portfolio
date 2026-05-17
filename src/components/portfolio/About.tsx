@@ -1,8 +1,8 @@
-import headshot from "@/assets/anas-headshot.jpg";
+import profile from "@/assets/profile.jpeg";
 import { Section } from "./Section";
 
 const ticker = [
-  "React.js", "Node.js", "MongoDB", "React Native",
+  "React.js", "Node.js", "Express.js", "MongoDB", "React Native",
   "Next.js", "PostgreSQL", "Agentic AI", "TypeScript", "Cisco Certified",
 ];
 
@@ -21,10 +21,10 @@ export function About() {
           <div>
             <div className="aspect-[4/5] border border-hairline overflow-hidden">
               <img
-                src={headshot}
+                src={profile}
                 alt="Syed Muhammad Anas"
                 loading="lazy"
-                className="h-full w-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                className="h-full w-full object-cover transition-all duration-700"
               />
             </div>
             <div className="mt-4 label-mono flex justify-between">
@@ -35,8 +35,8 @@ export function About() {
 
           <div className="border-t border-hairline pt-8 lg:border-t-0 lg:pt-0">
             <p className="font-serif text-2xl sm:text-3xl leading-[1.4]">
-              I recently completed an intensive Full Stack Web & Mobile Application Development
-              course and I'm currently learning <span className="italic accent">Certified Agentic AI Architect</span>.
+              I recently completed an intensive <span className="italic accent">Full Stack Web & Mobile Application Development
+              </span> Program  and I'm currently learning <span className="italic accent">Certified Agentic AI Architect</span>.
             </p>
             <p className="mt-8 text-foreground/70 leading-[1.85] max-w-xl">
               I love building real-world applications that solve actual problems. I'm actively

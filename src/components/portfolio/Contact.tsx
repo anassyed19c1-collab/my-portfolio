@@ -3,10 +3,10 @@ import { Section } from "./Section";
 import { useState } from "react";
 
 const links = [
-  { label: "Email", value: "ali.hassan@email.com", href: "mailto:ali.hassan@email.com" },
-  { label: "LinkedIn", value: "linkedin.com/in/alihassan", href: "https://linkedin.com/in/alihassan" },
-  { label: "GitHub", value: "github.com/alihassan", href: "https://github.com/alihassan" },
-  { label: "WhatsApp", value: "+92 300 0000000", href: "https://wa.me/923000000000" },
+  { label: "Email", value: "anas.syed19c1@gmail.com", href: "mailto:anas.syed19c1@gmail.com" },
+  { label: "LinkedIn", value: "www.linkedin.com/in/syed-muhammad-anas-30664539a", href: "https://www.linkedin.com/in/syed-muhammad-anas-30664539a" },
+  { label: "GitHub", value: "github.com/anassyed19c1-collab", href: "https://github.com/anassyed19c1-collab" },
+  { label: "WhatsApp", value: "+92 330 8398469", href: "https://wa.me/923308398469" },
   { label: "Location", value: "Karachi, Pakistan", href: "#" },
 ];
 
@@ -19,7 +19,7 @@ export function Contact() {
         <div className="lg:pr-12 pb-12 lg:pb-0">
           <p className="font-serif text-3xl sm:text-4xl leading-[1.25]">
             Open to <span className="italic accent">internship</span> and{" "}
-            <span className="italic">junior developer</span> opportunities. Have a role, project,
+            <span className="italic accent"> developer Role</span> opportunities. Have a role, project,
             or just want to connect?
           </p>
 

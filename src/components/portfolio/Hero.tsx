@@ -18,7 +18,7 @@ export function Hero() {
             <div className="mt-10 flex items-center gap-3">
               <span className="h-2 w-2 rounded-full bg-accent pulse-dot" />
               <span className="font-mono text-xs uppercase tracking-[0.2em] accent">
-                Open to Work — Internship & Junior Roles
+                Open to Work — Internship & Developer Roles
               </span>
             </div>
           </div>
@@ -26,7 +26,7 @@ export function Hero() {
           <div className="lg:pl-12 pt-12 lg:pt-0 flex flex-col">
             <div className="label-mono mb-6">[ 001 / Intro ]</div>
             <p className="font-serif text-2xl sm:text-3xl leading-[1.3] text-foreground/90">
-              A <span className="accent italic">Full Stack Developer</span> based in Karachi —
+              A <span className="accent italic">Full Stack Developer</span> —
               building clean, scalable web and mobile applications, and currently advancing into
               <span className="italic"> Agentic AI Engineering</span>.
             </p>
@@ -56,10 +56,10 @@ export function Hero() {
         {/* Stats strip */}
         <div className="mt-16 lg:mt-24 grid grid-cols-2 sm:grid-cols-4 border-t border-l border-hairline">
           {[
-            { v: "3+", l: "Projects" },
-            { v: "10+", l: "Technologies" },
+            { v: "12+", l: "Projects" },
+            { v: "19+", l: "Technologies" },
             { v: "03", l: "Cisco Certs" },
-            { v: "01", l: "In Progress" },
+            { v: "04", l: "In Progress" },
           ].map((s) => (
             <div
               key={s.l}

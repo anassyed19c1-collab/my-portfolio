@@ -1,7 +1,7 @@
 import { Section } from "./Section";
 
 const groups = [
-  { n: "01", title: "Frontend", items: ["React.js", "Next.js", "JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3", "Tailwind CSS", "Redux"] },
+  { n: "01", title: "Frontend", items: ["Next.js", "React.js", "JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3", "Tailwind CSS", "Redux"] },
   { n: "02", title: "Backend", items: ["Node.js", "Express.js", "REST APIs", "JWT Auth", "Python"] },
   { n: "03", title: "Mobile", items: ["React Native", "Expo", "Android", "iOS"] },
   { n: "04", title: "Database", items: ["MongoDB", "PostgreSQL", "MySQL", "Firebase", "Supabase", "Mongoose"] },
@@ -11,15 +11,15 @@ const groups = [
 
 export function Skills() {
   return (
-    <Section id="skills" label="Toolkit / 03" heading="Tools I work with.">
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 border-t border-l border-hairline">
+    <Section id="skills" label="Skills / 03" heading="Technologies I work with.">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 border-t border-l border-hairline ">
         {groups.map((g) => (
           <div
             key={g.n}
-            className="border-r border-b border-hairline p-8 hover:bg-[rgba(232,255,71,0.04)] transition-colors group"
+            className="border-r border-b border-hairline p-8 hover:bg-[rgba(232,255,71,0.04)] transition-colors group "
           >
             <div className="flex items-center justify-between">
-              <span className="label-mono">[{g.n}]</span>
+              <span className="label-mono font-mono text-xs accent">[{g.n}]</span>
               <span className="h-1.5 w-1.5 rounded-full bg-accent opacity-0 group-hover:opacity-100 transition-opacity" />
             </div>
             <h3 className="mt-4 font-serif text-3xl">{g.title}</h3>

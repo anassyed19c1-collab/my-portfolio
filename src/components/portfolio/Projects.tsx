@@ -4,36 +4,36 @@ import { Section } from "./Section";
 const projects = [
   {
     n: "01",
-    title: "E-Commerce Platform",
-    year: "2025",
+    title: "Realestate Platform",
+    year: "2026",
     cat: "Web",
-    desc: "Full-featured online store with product management, shopping cart, Stripe payments, and an admin dashboard with real-time sales analytics.",
-    tech: ["React.js", "Node.js", "Express", "MongoDB", "Stripe", "JWT"],
-    href: "https://github.com",
+    desc: "A production-grade full stack real estate web application built solo from frontend to deployed API. Features: JWT Authentication (Login / Register) - Property listings with advanced search & filters - User Dashboard — wishlist, profile, my listings - Admin Dashboard — manage all properties & users - Multi-image upload per property - Real-time data sync with React Query.",
+    tech: ["Next.js", "Node.js", "Express.Js", "MongoDB", "JWT", "vercel", "Railways"],
+    href: "https://full-stack-realestate-application-f.vercel.app/",
   },
   {
     n: "02",
-    title: "Social Media Website",
-    year: "2025",
-    cat: "Web",
-    desc: "A complete social platform with authentication, post creation, likes, comments, follow / unfollow system, and user profile pages.",
-    tech: ["React.js", "Node.js", "Express", "MongoDB", "JWT"],
-    href: "https://github.com",
+    title: "Authentication CLI NPM - Package",
+    year: "2026",
+    cat: "NPM",
+    desc: "Production-ready CLI tool published on NPM that scaffolds a complete JWT authentication boilerplate instantly. - JWT auth fully configured out of the box - Used by developers worldwide for rapid prototyping and learning - Features: User registration, login, protected routes, token refresh, and logout - Built with Node.js, Express, MongoDB, and JWT - 100+ weekly downloads and growing",
+    tech: ["Node.js", "Express.js", "NPM", "CLI Development", "JWT", "MongoDB"],
+    href: "https://www.npmjs.com/package/create-auth-app-cli",
   },
   {
     n: "03",
-    title: "Task Manager Mobile App",
-    year: "2024",
-    cat: "Mobile",
-    desc: "Cross-platform mobile app for daily task management with push notifications, category filters, offline support, and Firebase sync.",
-    tech: ["React Native", "Expo", "Firebase", "Redux", "AsyncStorage"],
-    href: "https://github.com",
+    title: "Agency Website",
+    year: "2025",
+    cat: "Web",
+    desc: "A high-performance, responsive corporate web application engineered to elevate brand presence and maximize user engagement. This platform features a modern user interface, lightning-fast page transitions, and a mobile-first layout to ensure an optimal viewing experience across all devices.",
+    tech: ["React.js", "Tailwind CSS", "Framer Motion", "App Router", "Supabase"],
+    href: "https://chic-platypus-b85cd8.netlify.app/",
   },
 ];
 
 export function Projects() {
   return (
-    <Section id="projects" label="Selected Work / 02" heading="Things I've built.">
+    <Section id="projects" label="Featured Work / 02" heading="Things I've built.">
       <ul className="border-t border-hairline">
         {projects.map((p) => (
           <li key={p.n} className="border-b border-hairline">
@@ -44,7 +44,7 @@ export function Projects() {
               className="group block py-8 sm:py-10 transition-colors hover:bg-[rgba(232,255,71,0.04)]"
             >
               <div className="grid grid-cols-[40px_1fr_auto] sm:grid-cols-[60px_1fr_120px_40px] gap-4 sm:gap-8 items-baseline">
-                <span className="font-mono text-xs accent">[{p.n}]</span>
+                <span className="font-mono text-xs accent pl-5">[{p.n}]</span>
                 <div>
                   <h3 className="font-serif text-3xl sm:text-5xl leading-tight transition-colors group-hover:text-accent">
                     {p.title}
