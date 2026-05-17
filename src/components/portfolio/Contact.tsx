@@ -18,8 +18,8 @@ export function Contact() {
       <div className="grid lg:grid-cols-2 gap-0 lg:divide-x divide-y lg:divide-y-0 divide-[var(--border)]">
         <div className="lg:pr-12 pb-12 lg:pb-0">
           <p className="font-serif text-3xl sm:text-4xl leading-[1.25]">
-            Open to <span className="italic accent">internship</span> and{" "}
-            <span className="italic accent"> developer Role</span> opportunities. Have a role, project,
+            Open to <span className="italic accent">Internship</span> and{" "}
+            <span className="italic accent"> Developer Role</span> opportunities. Have a role, project,
             or just want to connect?
           </p>
 
