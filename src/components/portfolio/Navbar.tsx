@@ -22,12 +22,18 @@ export function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 inset-x-0 z-50 transition-colors duration-300 border-b ${
-        scrolled ? "border-hairline bg-background/85 backdrop-blur-md" : "border-transparent"
-      }`}
+      className={`fixed top-0 inset-x-0 z-50 transition-colors duration-300 border-b ${scrolled ? "border-hairline bg-background/85 backdrop-blur-md" : "border-transparent"
+        }`}
     >
       <nav className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 h-20 flex items-center justify-between">
-        <a href="#home" className="font-serif text-2xl tracking-tight">
+        <a
+          href="#home"
+          className="inline-block font-serif text-2xl leading-none bg-clip-text text-transparent"
+          style={{
+            backgroundImage:
+              "linear-gradient(135deg, var(--primary) 0%, #f5f5f0 100%)",
+          }}
+        >
           PORTFOLIO<span className="accent">.</span>
         </a>
 
