@@ -24,10 +24,10 @@ export function Contact() {
 
     try {
       await emailjs.sendForm(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        "service_cx2ixx4", 
+        "template_tq5z8bd",
         formRef.current!,
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+        "f1lmC4sFTvDXrgLfo"
       );
       setSent(true);
       formRef.current?.reset();
