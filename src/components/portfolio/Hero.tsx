@@ -5,7 +5,22 @@ export function Hero() {
     <section
       id="home"
       className="relative min-h-screen pt-32 pb-16 px-6 sm:px-10 lg:px-16 flex items-center"
-    >
+      >
+{/* Background Glow */}
+<div className="absolute inset-0 overflow-hidden pointer-events-none">
+  <div 
+    className="absolute top-[-20%] left-[-10%] w-[600px] h-[600px] rounded-full blur-[120px]"
+    style={{ background: 'rgba(232, 255, 71, 0.25)' }}
+  />
+  <div 
+    className="absolute top-[10%] right-[-10%] w-[500px] h-[500px] rounded-full blur-[100px]"
+    style={{ background: 'rgba(232, 255, 71, 0.22)' }}
+  />
+  <div 
+    className="absolute bottom-[0%] left-[30%] w-[400px] h-[400px] rounded-full blur-[80px]"
+    style={{ background: 'rgba(232, 255, 71, 0.20)' }}
+  />
+</div>
       <div className="max-w-7xl mx-auto w-full">
         <div className="grid lg:grid-cols-2 gap-0 lg:divide-x divide-y lg:divide-y-0 divide-[var(--border)]">
           <div className="lg:pr-12 pb-12 lg:pb-0">
